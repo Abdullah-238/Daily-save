@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:str="clr-namespace:Wallet.String"
+             x:Class="Wallet.pgWalletDetiles"
+             Title="{x:Static str:AppString.Wallet_Detiles}"
+             BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}"
+             Loaded="ContentPage_Loaded">
+
+    <RefreshView x:Name="refresh" Refreshing="refresh_Refreshing">
+        <ScrollView>
+            <VerticalStackLayout Padding="20" Spacing="32">
+
+                <Frame BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                       CornerRadius="24"
+                       Padding="28"
+                       HasShadow="True">
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="{x:Static str:AppString.Wallet_Detiles}"
+                               FontSize="26"
+                               FontAttributes="Bold"
+                               TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"/>
+                        <Label Text="{x:Static str:AppString.Track_your_daily_wallet_activity}"
+                               FontSize="16"
+                               TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Grid ColumnSpacing="16" RowSpacing="16">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <VerticalStackLayout Grid.Row="0" Grid.Column="0" Spacing="6">
+                        <Label Text="{x:Static str:AppString.Type}"
+                               FontAttributes="Bold"
+                               FontSize="14"
+                               TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"/>
+                        <Picker x:Name="pkTypes"
+                                ItemsSource="{Binding Type}"
+                                SelectedIndexChanged="pkTypes_SelectedIndexChanged"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Grid.Row="0" Grid.Column="1" Spacing="6">
+                        <Label Text="{x:Static str:AppString.Date}"
+                               FontAttributes="Bold"
+                               FontSize="14"
+                               TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"/>
+                        <DatePicker x:Name="pkDate"
+                                    VerticalOptions="Fill"
+                                    DateSelected="DatePicker_DateSelected"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <CollectionView x:Name="Wallet"
+                                ItemsSource="{Binding WalletItems}"
+                                SelectionMode="None">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame CornerRadius="20"
+                                   Padding="20"
+                                   HasShadow="True"
+                                   BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                                   BorderColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}">
+
+                                <Grid RowSpacing="8">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <VerticalStackLayout Grid.Row="0" Grid.Column="0" Spacing="4">
+                                        <Label Text="{Binding Type}" 
+                                               FontSize="18"
+                                               FontAttributes="Bold"
+                                               TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"/>
+                                        <Label Text="{Binding Note}" 
+                                               FontSize="14"
+                                               TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"/>
+                                    </VerticalStackLayout>
+
+                                    <Label Grid.Row="0" Grid.Column="1" 
+                                           FontSize="18"
+                                           FontAttributes="Bold"
+                                           HorizontalOptions="End"
+                                           TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="{Binding Amount}" />
+                                                <Span Text=" " />
+                                                <Span Text="{Binding Currency}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+
+                                    <Label Grid.Row="1" Grid.ColumnSpan="2"
+                                           FontSize="12"
+                                           Text="{Binding DateShort}"
+                                           HorizontalOptions="End"
+                                           TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" />
+                                </Grid>
+
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </RefreshView>
+</ContentPage>

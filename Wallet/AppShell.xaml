@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Wallet.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Wallet"
+    xmlns:str="clr-namespace:Wallet.String"
+    Shell.FlyoutBehavior="Disabled"
+    Title="{x:Static str:AppString.Daily_Save}">
+
+
+    <TabBar >
+
+        <ShellContent
+        Icon="home"
+        Title="{x:Static str:AppString.Home}"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+        Icon="wallet"
+        Title="{x:Static str:AppString.Wallet_Detiles}"
+        ContentTemplate="{DataTemplate local:pgWalletDetiles}"
+        Route="WalletDetile" />
+
+        </TabBar>
+
+</Shell>

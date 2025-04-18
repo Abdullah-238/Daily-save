@@ -1,0 +1,1 @@
+C:\Users\good1\source\repos\Wallet\Wallet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppPackages\Wallet_1.1.8.0_Test\Wallet_1.1.8.0_x86.msix
