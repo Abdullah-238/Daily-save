@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="AbdTech.DailySave" Publisher="CN=8592A100-17B7-4E69-9E5B-7F4D5910A569" Version="1.1.8.0" ProcessorArchitecture="x64" />
+  <Identity Name="AbdTech.DailySave" Publisher="CN=8592A100-17B7-4E69-9E5B-7F4D5910A569" Version="1.1.10.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="fec7302e-3c75-4401-b208-9b642859e21b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Daily Save</DisplayName>

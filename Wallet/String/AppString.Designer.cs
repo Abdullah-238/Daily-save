@@ -115,6 +115,15 @@ namespace Wallet.String {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Invalid amount format.
+        /// </summary>
+        internal static string Invalid_amount_format {
+            get {
+                return ResourceManager.GetString("Invalid_amount_format", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Note.
         /// </summary>
         internal static string Note {

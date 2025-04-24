@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap">
-  <Identity Name="AbdTech.DailySave" Publisher="CN=8592A100-17B7-4E69-9E5B-7F4D5910A569" Version="1.1.8.0" />
+  <Identity Name="AbdTech.DailySave" Publisher="CN=8592A100-17B7-4E69-9E5B-7F4D5910A569" Version="1.1.10.0" />
   <mp:PhoneIdentity PhoneProductId="fec7302e-3c75-4401-b208-9b642859e21b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Daily Save</DisplayName>

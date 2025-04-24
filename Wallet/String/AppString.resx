@@ -135,6 +135,9 @@
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="Invalid_amount_format" xml:space="preserve">
+    <value>Invalid amount format</value>
+  </data>
   <data name="Note" xml:space="preserve">
     <value>Note</value>
   </data>

@@ -18,36 +18,36 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\good1\source\repos\Wallet\Wallet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>A918C6E2E8BF0EF6A79A03C5690A013E8E8C7BC5F038D1E77B2F1C94CB0C79B0</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>AbdTech.DailySave_1.1.8.0_x64__46q0pfv9qa9y6</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>968B2C02461CE3D42F2C4EE44F0EF9F780C39CFF8CE3A5204AE68E635BF46EF9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>AbdTech.DailySave_1.1.10.0_x64__46q0pfv9qa9y6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>AbdTech.DailySave_46q0pfv9qa9y6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>AbdTech.DailySave</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=8592A100-17B7-4E69-9E5B-7F4D5910A569</RegisteredPackagePublisher>
-    <RegisteredVersion>1.1.8.0</RegisteredVersion>
+    <RegisteredVersion>1.1.10.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\good1\source\repos\Wallet\Wallet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-16T15:41:55.533</Modified>
+      <Modified>2025-04-19T00:42:26.981</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-16T15:41:36.777</Modified>
+      <Modified>2025-04-19T00:42:26.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Wallet.runtimeconfig.json">
       <PackagePath>Wallet.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-16T15:38:32.695</Modified>
+      <Modified>2025-04-19T00:42:26.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Wallet.dll">
       <PackagePath>Wallet.dll</PackagePath>
-      <Modified>2025-04-16T15:41:34.183</Modified>
+      <Modified>2025-04-19T00:42:23.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Wallet.exe</PackagePath>
-      <Modified>2025-04-16T15:41:34.292</Modified>
+      <Modified>2025-04-19T00:42:23.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -83,235 +83,255 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.557</Modified>
+      <Modified>2025-04-16T15:42:38.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png">
       <PackagePath>home.scale-125.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png">
       <PackagePath>home.scale-150.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png">
       <PackagePath>home.scale-200.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
       <PackagePath>home.scale-400.png</PackagePath>
-      <Modified>2025-04-16T15:41:32.573</Modified>
+      <Modified>2025-04-16T15:42:38.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallet.scale-100.png">
+      <PackagePath>wallet.scale-100.png</PackagePath>
+      <Modified>2025-04-16T15:42:38.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallet.scale-125.png">
+      <PackagePath>wallet.scale-125.png</PackagePath>
+      <Modified>2025-04-16T15:42:38.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallet.scale-150.png">
+      <PackagePath>wallet.scale-150.png</PackagePath>
+      <Modified>2025-04-16T15:42:38.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallet.scale-200.png">
+      <PackagePath>wallet.scale-200.png</PackagePath>
+      <Modified>2025-04-16T15:42:38.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallet.scale-400.png">
+      <PackagePath>wallet.scale-400.png</PackagePath>
+      <Modified>2025-04-16T15:42:38.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Wallet.deps.json">
       <PackagePath>Wallet.deps.json</PackagePath>
-      <Modified>2025-04-16T15:38:32.508</Modified>
+      <Modified>2025-04-19T00:42:25.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\Wallet\Wallet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Wallet.resources.dll">
       <PackagePath>ar\Wallet.resources.dll</PackagePath>
-      <Modified>2025-04-16T15:41:36.261</Modified>
+      <Modified>2025-04-19T00:42:25.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

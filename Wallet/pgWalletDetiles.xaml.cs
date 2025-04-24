@@ -112,4 +112,9 @@ public partial class pgWalletDetiles : ContentPage
         }
 
     }
+
+    private void ContentPage_Appearing(object sender, EventArgs e)
+    {
+        _load();
+    }
 }

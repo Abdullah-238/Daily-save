@@ -5,6 +5,7 @@
              x:Class="Wallet.pgWalletDetiles"
              Title="{x:Static str:AppString.Wallet_Detiles}"
              BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}"
+
              Loaded="ContentPage_Loaded">
 
     <RefreshView x:Name="refresh" Refreshing="refresh_Refreshing">

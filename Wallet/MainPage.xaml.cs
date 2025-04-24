@@ -81,6 +81,12 @@ namespace Wallet
                 return;
             }
 
+            if (!enAmount.Text.All(char.IsDigit))
+            {
+                await DisplayAlert(AppString.Error, AppString.Invalid_amount_format, AppString.Done);
+                return;
+            }
+
             decimal? Amount = decimal.Parse(enAmount.Text);
 
             string? Currency = pkCurreency.SelectedItem.ToString();
