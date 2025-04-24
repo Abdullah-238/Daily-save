@@ -20,5 +20,4 @@ You can download and install the app directly from the Microsoft Store:
 
 ➡️ [**Download from Microsoft Store**](https://apps.microsoft.com/store/detail/9MVM0DPQ8J1R?cid=DevShareMCLPCS)
 
-Or search for it using the ID: `9MVM0DPQ8J1R`
 
